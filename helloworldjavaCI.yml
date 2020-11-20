@@ -1,0 +1,21 @@
+# helloworld java YAML pipeline
+# CI on master
+# build using gradle and run unit tests
+# publish artifacts
+
+pool:
+  vmImage: 'Ubuntu 18.04'
+
+trigger:
+- master
+
+steps:
+- task: Gradle@2
+  displayName: 'gradlew build'
+
+- publish: $(System.DefaultWorkingDirectory)/build/distributions
+  displayName: 'publish distribution'
+  artifact: drop
+
+
+
