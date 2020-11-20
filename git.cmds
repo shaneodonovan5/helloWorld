@@ -1,0 +1,11 @@
+git init
+git add *
+git commit - m "initial commit"
+git remote add origin https://gclynch.visualstudio.com/_git/helloworldjavaCI
+git push origin master
+git commit -a - m "git cmds"
+
+# make changes e.g. gradle build and commit again
+
+
+

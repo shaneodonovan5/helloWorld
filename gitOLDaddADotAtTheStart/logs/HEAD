@@ -1,0 +1,34 @@
+0000000000000000000000000000000000000000 5c43b0b3d7aa7ecc3744f149a758fbee989697b0 Gary Clynch <garyclynch@outlook.ie> 1511456909 +0000	commit (initial): initial commit
+5c43b0b3d7aa7ecc3744f149a758fbee989697b0 8b02469d814e2a4cfe93afd1ca2cb81c09f5006d Gary Clynch <garyclynch@outlook.ie> 1511457065 +0000	commit: edited git cmds
+8b02469d814e2a4cfe93afd1ca2cb81c09f5006d 1e335ac4a1062065dba42d82c045471bd1999ba5 Gary Clynch <garyclynch@outlook.ie> 1511457321 +0000	commit: edited git cmds
+1e335ac4a1062065dba42d82c045471bd1999ba5 ec5108aa7e0b326af7210b26d044f632f7ad4d78 Gary Clynch <garyclynch@outlook.ie> 1511457863 +0000	commit: added gradlew
+ec5108aa7e0b326af7210b26d044f632f7ad4d78 1605e65b1c28897e0fedfd416a9da16a589baa8a Gary Clynch <garyclynch@outlook.ie> 1522671648 +0100	commit: minor edits
+1605e65b1c28897e0fedfd416a9da16a589baa8a 89760a60cc8c42aab828ee96c4a9ab59428882f2 Gary Clynch <garyclynch@outlook.ie> 1522671787 +0100	pull origin master: Merge made by the 'recursive' strategy.
+89760a60cc8c42aab828ee96c4a9ab59428882f2 67098788e908fa44bc7699fe599b4d725ec86887 Gary Clynch <garyclynch@outlook.ie> 1522693834 +0100	pull origin master: Fast-forward
+67098788e908fa44bc7699fe599b4d725ec86887 045431df971b86f4338dd8bb24256209a15bd3a8 Gary Clynch <garyclynch@outlook.ie> 1522693855 +0100	commit: added yaml build file
+045431df971b86f4338dd8bb24256209a15bd3a8 031e30defdac04d4c015a02afbeb5fda41befa75 Gary Clynch <garyclynch@outlook.ie> 1536694417 +0100	commit: using joda time 2.10
+031e30defdac04d4c015a02afbeb5fda41befa75 b12c38c54e7dfeb3d9f481b6c603ca88effe51ba Gary Clynch <garyclynch@outlook.ie> 1539016165 +0100	commit: updated comment in build.gradle
+b12c38c54e7dfeb3d9f481b6c603ca88effe51ba 0f19bf85d91625458b6614f44b76de31c1213cb2 Gary Clynch <garyclynch@outlook.ie> 1552471596 +0000	commit: updated to joda-time 2.10.1
+0f19bf85d91625458b6614f44b76de31c1213cb2 563587c577bf96cc8d05aa32c219dce9d809f76c Gary Clynch <garyclynch@outlook.ie> 1552471694 +0000	commit: updated comments in helloworld.java
+563587c577bf96cc8d05aa32c219dce9d809f76c 4f5a55e1d24849fda911f183da491703829dc61d Gary Clynch <garyclynch@outlook.ie> 1552471739 +0000	commit: edited readmes
+4f5a55e1d24849fda911f183da491703829dc61d 4847c444f35908823d1f16feee7dc1f37f549664 Gary Clynch <garyclynch@outlook.ie> 1552472371 +0000	commit: added dummy unit test
+4847c444f35908823d1f16feee7dc1f37f549664 7d73d3cda702693c517f8745801a640bb941d305 Gary Clynch <garyclynch@outlook.ie> 1552472670 +0000	pull origin master: Merge made by the 'recursive' strategy.
+7d73d3cda702693c517f8745801a640bb941d305 e390b8ff767cf298889003e49bd5a56bda11350e Gary Clynch <garyclynch@outlook.ie> 1552482512 +0000	pull origin master: Fast-forward
+e390b8ff767cf298889003e49bd5a56bda11350e 82813032cb98c3f83fc91c2024dc4291e40a7266 Gary Clynch <garyclynch@outlook.ie> 1552482692 +0000	commit: renamed old pipeline
+82813032cb98c3f83fc91c2024dc4291e40a7266 82813032cb98c3f83fc91c2024dc4291e40a7266 Gary Clynch <garyclynch@outlook.ie> 1552484422 +0000	reset: moving to HEAD
+82813032cb98c3f83fc91c2024dc4291e40a7266 a4c22c79361fb084bfa04f44a080a05423a8605b Gary Clynch <garyclynch@outlook.ie> 1552484452 +0000	commit: added .gitignore
+a4c22c79361fb084bfa04f44a080a05423a8605b 76c810233de80359825674396fab88b8aa0f1265 Gary Clynch <garyclynch@outlook.ie> 1552484476 +0000	pull origin master: Merge made by the 'recursive' strategy.
+76c810233de80359825674396fab88b8aa0f1265 38ee853b7ea6be744485eeab4d1d7a086250645b Gary Clynch <garyclynch@outlook.ie> 1552484899 +0000	commit: updated .gitignore
+38ee853b7ea6be744485eeab4d1d7a086250645b b253b89dd5a345d2030e2425ed3a9d9fd8a6c7cd Gary Clynch <garyclynch@outlook.ie> 1552484978 +0000	commit (merge): gc
+b253b89dd5a345d2030e2425ed3a9d9fd8a6c7cd 7ece98b9c2728b4436794cf806ed7ecc547bce2d Gary Clynch <garyclynch@outlook.ie> 1552485174 +0000	pull origin master: Fast-forward
+7ece98b9c2728b4436794cf806ed7ecc547bce2d cac8c96aa30d8cbc8372fb290365793f2a99e3df Gary Clynch <garyclynch@outlook.ie> 1552485375 +0000	commit: edited build.gradle
+cac8c96aa30d8cbc8372fb290365793f2a99e3df bdc0b690dbf986f0acdefb7368abccb62c0aa696 Gary Clynch <garyclynch@outlook.ie> 1552485552 +0000	commit: edited build.gradle
+bdc0b690dbf986f0acdefb7368abccb62c0aa696 dc8a38aebc3cedca0a06a48e8555663f43d3271a Gary Clynch <garyclynch@outlook.ie> 1552487791 +0000	pull origin master: Fast-forward
+dc8a38aebc3cedca0a06a48e8555663f43d3271a c8a0bcfe3355f71d88322dd9eade7b412acb2d99 Gary Clynch <garyclynch@outlook.ie> 1552488100 +0000	commit: edited build.gradle comment
+c8a0bcfe3355f71d88322dd9eade7b412acb2d99 e30f8da4dfed7985e4aba67c8307c6cc34afdd54 Gary Clynch <garyclynch@outlook.ie> 1569164586 +0100	pull origin master: Fast-forward
+e30f8da4dfed7985e4aba67c8307c6cc34afdd54 f4ae4b1aa60a79846fb7c52fdd428ee7f9c4a3fe Gary Clynch <garyclynch@outlook.ie> 1569164655 +0100	commit: updated build.gradle
+f4ae4b1aa60a79846fb7c52fdd428ee7f9c4a3fe 31002aea298694d9c2a527567bc1c0caf3f0e3dd Gary Clynch <garyclynch@outlook.ie> 1569165006 +0100	commit: joda 2 10 4
+31002aea298694d9c2a527567bc1c0caf3f0e3dd 83c3500e2ca481e1ae5af9a08d3972ee0e27cf66 Gary Clynch <garyclynch@outlook.ie> 1569330698 +0100	commit: updated build script
+83c3500e2ca481e1ae5af9a08d3972ee0e27cf66 cf9877bdb280b41fec78010554a7e9d8f17c2fdb Gary Clynch <garyclynch@outlook.ie> 1569347050 +0100	commit: did some updates
+cf9877bdb280b41fec78010554a7e9d8f17c2fdb a2a4c8b019a9792e20f478aad380b5176ca696ed Gary Clynch <garyclynch@outlook.ie> 1571410839 +0100	pull origin master: Fast-forward
+a2a4c8b019a9792e20f478aad380b5176ca696ed 1f867595c8bb7eab7a098e9fbc02fdfdac793295 Gary Clynch <garyclynch@outlook.ie> 1571411084 +0100	commit: updated build.gradle

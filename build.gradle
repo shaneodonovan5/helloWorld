@@ -1,0 +1,62 @@
+// build script in Gradle DSL (gradle build language based on Groovy)
+// runs on JVM
+// gradle build composed of projects with tasks
+
+// plug-ins adds pre-configured tasks to script i.e. java, application
+
+apply plugin: 'java'						// java source sets (main and test) and compilation/testing/javadoc/bundling into JAR tasks
+// brings in tasks:
+// compileJava - compile using javac src/main/java (main source set)
+// compileTestJava - compile using javac src/test/java
+// jar - assemble the jar
+// test - runs unit tests
+// javadoc - generates javadoc for main classes
+// build - build whole application, will run test task and fail if tests fail
+// clean - remove build directories
+
+// main source set - production code
+// test source set - unit tests
+
+apply plugin: 'application'					// executable JVM application
+// build/distributions folder contains TAR and ZIP + OS scripts to run as a result of build above
+// run - run the application
+
+// other plugins for scala, groovy, python etc.
+
+mainClassName = 'hello.HelloWorld'			// customise property for application plug-in
+
+// script block (Groovy) - customise jar object added by java plug-in
+// optional step to specify explicit name for executable JAR (i.e. containing main class) in JAR's Manifest 
+// using semantic versioning major.minor.patch
+jar {
+    baseName = 'helloworld'
+    version =  '1.0.0'
+	manifest {
+        attributes 'Main-Class': 'hello.HelloWorld'
+    }
+}
+
+// script block
+// add support for 3rd party JARs in Maven 2 central repository e.g. JODA
+// resolve dependencies from Maven 2 central repo
+repositories {
+    mavenCentral()
+}
+
+// script block
+dependencies {
+    compile "joda-time:joda-time:2.10.4"		// JODA jar, format for dependencies is group-id:artifcat-id:version
+	compile "junit:junit:4.12"				// unit tests
+}
+
+// can also publish artifcats in Maven repo
+// the "application" plug-in creates distributions (i.e. tar for Unix and zip for Windows containing run scripts and jars and dependencies)
+// e.g. distribution for windows unzipped contains DOS batch to run application
+
+// need to add gradle wrapper for builds on Azure DevOps etc.
+// adds gradlew, gradlew.bat, gradle/wrapper/gradle-wrapper.jar, gradle/wrapper/gradle-wrapper.properties
+// add to Git and commit
+// gradle wrapper (to install wrapper), note: gradle wrapper needs to be in remote repo (don't ignore)
+// gradlew build
+// gradlew run
+

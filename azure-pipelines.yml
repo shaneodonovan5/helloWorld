@@ -1,0 +1,30 @@
+# helloworld java YAML pipeline
+# CI on master
+# build using gradle and run unit tests
+# publish artifacts
+
+pool:
+  vmImage: 'Ubuntu 16.04'
+
+trigger:
+- master
+
+steps:
+- task: Gradle@2
+  inputs:
+    workingDirectory: ''
+    gradleWrapperFile: 'gradlew'
+    gradleOptions: '-Xmx3072m'
+    javaHomeOption: 'JDKVersion'
+    jdkVersionOption: 'default'
+    jdkArchitectureOption: 'x64'
+    publishJUnitResults: true
+    testResultsFiles: '**/TEST-*.xml'
+    tasks: 'build'
+  
+
+- publish: $(System.DefaultWorkingDirectory)/build/distributions
+  artifact: drop
+
+
+
