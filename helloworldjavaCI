@@ -1,0 +1,11 @@
+Aure DevOps project
+https://dev.azure.com/gclynch/helloworldjavaCI
+
+helloworldjavaCI - source code in Gradle/helloworldjava
+
+CI only, no release
+2 build pipelines (YAML and UI)
+Gradle wrapper in repo, also .gitignore, gradle wrapper needed in project needed for agent to build
+Steps: gradle build, copy files to staging, publish files from staging back to VSTS as artifacts
+Git repo is Azure DevOps which is being pushed to from local repo containing code and build scripts - using Git bash
+artifacts named "drop" 
